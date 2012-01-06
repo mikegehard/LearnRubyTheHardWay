@@ -11,8 +11,10 @@ def death()
   Process.exit(1)
 end
 
+attr_reader :number
+
 def central_corridor()
-  puts <<-TEXT
+  @text = <<-TEXT
     The Gothons of Planet Percal #25 have invaded your ship and destroyed
     you entire crew. You are the last surviving memeber and your last
     mission is to get the neutron destruct bomb from the Weapons Armory,
@@ -187,7 +189,8 @@ def runner(map, start)
   while true
     room = map[next_one]
     puts "\n--------->"
-    next_one = room.call()
+    puts room.text
+#    next_one = room.call()
   end
 end
 
