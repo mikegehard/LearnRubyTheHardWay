@@ -1,0 +1,2 @@
+ERROR:  Could not find a valid gem 'openssl' (>= 0) in any repository
+ERROR:  Possible alternatives: opendsl, opensrs, open_dsl, openurl
