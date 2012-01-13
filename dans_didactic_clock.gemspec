@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Dan Schmidt"]
   s.email       = ["daniel.adam.schmidt@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Didactic Clock Web App }
+  s.description = %q{Simple app that displays the didactic system time.}
 
   s.rubyforge_project = "dans_didactic_clock"
 
